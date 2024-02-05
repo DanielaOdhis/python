@@ -9,3 +9,8 @@ written in more than one line"""
 x=8;
 y="I am a girl"
 print("I am ",x," years and also",y)
+
+a = str(3)    # a will be '3'
+b = int(3)    # b will be 3
+c = float(3)  # c will be 3.0
+print(a,b,c)
