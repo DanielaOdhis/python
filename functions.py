@@ -13,3 +13,11 @@ def func2():
 func2()
 
 print("Python is " + x)
+
+def func3():
+  global x
+  x = "the best"
+
+func3()
+
+print("Python is " + x)
