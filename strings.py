@@ -44,3 +44,8 @@ print(a.strip()) #removes any whitespace from the beginning or the end
 #The replace() method replaces a string with another string:
 print(a.replace("H", "J")) #prints Jello, World!
 print(a.split(",")) #returns ['Hello', ' World!']
+
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c) #adds space between them
